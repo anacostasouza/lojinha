@@ -1,10 +1,10 @@
 import './App.css';
-import Item from './components/Item';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <Item item={{ name: 'Fiat', description: 'Marca de Carro conhecida ' }} />  
+      <Form />
     </div>
   );
 }

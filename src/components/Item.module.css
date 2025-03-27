@@ -1,40 +1,12 @@
 .itemContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    border-bottom: 1px solid #e0e0e0; 
-    background-color: #f5f5f5; 
-    transition: background-color 0.2s ease; 
-    cursor: pointer;
-    
-    &:hover {
-      background-color: #e8e8e8;
-    }
-  
-    &:last-child {
-      border-bottom: none; 
-    }
-  }
-  
-  .itemContent {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-  
- 
-  .itemPrimaryText {
-    font-weight: 500;
-    color: #333;
-  }
-  
-  .itemSecondaryText {
-    font-size: 0.875rem;
-    color: #666;
-  }
-  
-  .itemIcon {
-    color: #555;
-    font-size: 1.25rem;
-  }
+  display: flex;
+  background-color: rgb(223, 223, 223);
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.itemContent {
+    flex: 1;
+    text-align: center;
+}
